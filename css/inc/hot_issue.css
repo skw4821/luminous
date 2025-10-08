@@ -1,0 +1,61 @@
+.hot_issue_wrapper {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.hot_issue_wrapper .hot_issue_under_line {
+  border-bottom: 1px solid white;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hot_issue_wrapper .hot_issue_under_line .hot_issue {
+  width: 100%;
+  height: 100%;
+  color: white; /* 폰트 색상을 화이트로 설정 */
+}
+.hot_issue_wrapper .ue_under_line .hot_issue .rank {
+  color: white;
+}
+
+.hot_issue_wrapper .hot_issue_under_line .hot_issue {
+  color: white; /* 핫이슈 텍스트의 기본 색상 */
+}
+
+.hot_issue_wrapper .hot_issue_under_line .hot_issue .rank {
+  color: white; /* 순위 번호 색상 */
+}
+
+.hot_issue_wrapper .hot_issue_under_line .hot_issue a {
+  color: white; /* 링크 색상 */
+}
+
+.hot_issue_wrapper .hot_issue_under_line .hot_issue a:hover {
+  color: lightgray; /* 링크에 호버 시 색상 변경 (선택사항) */
+}
+
+.ticker {
+  height: 100%;
+  width: 90%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white; /* 폰트 색상을 화이트로 설정 */
+}
+.ticker li {
+  height: 30px;
+  padding: 5px;
+  margin: 0px 5px;
+  color: white; /* 폰트 색상을 화이트로 설정 */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
